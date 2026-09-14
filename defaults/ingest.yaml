@@ -1,0 +1,13 @@
+# AutoScribe ingest — static Pandoc defaults
+#
+# The source filepath, plan identity, source name/format, response routing, and
+# private writer sink are supplied by Rust in the ephemeral runtime defaults.
+#
+# Source-specific normalization/munging filters may be added before the final
+# emitter. Rust treats the external document as opaque input and validates only
+# the canonical NDJSON emitted by Pandoc.
+to: plain
+wrap: none
+
+filters:
+  - emit/ingest_calls.lua
