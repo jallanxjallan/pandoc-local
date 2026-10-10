@@ -1,3 +1,0 @@
-writer: native
-filters:
-  - emit/emit_ndjson.lua

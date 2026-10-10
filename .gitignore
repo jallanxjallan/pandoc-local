@@ -1,0 +1,10 @@
+target/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.pem
+*.key
+workspace*.json
+.cache/
+.DS_Store

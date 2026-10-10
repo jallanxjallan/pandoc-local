@@ -1,7 +1,0 @@
-from: markdown+mark
-filters:
-  - formatting/format_layout_item.lua
-  - formatting/format_reviewer_note.lua
-resource-path: 
-  - references
-reference-doc: references/reference.docx

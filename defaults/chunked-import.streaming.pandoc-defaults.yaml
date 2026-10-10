@@ -1,9 +1,0 @@
-to: markdown
-output-file: /dev/null
-
-filters:
-  - identity/inject_provisional_slug.lua
-  - identity/provenance_capture.lua
-  - emit/emit_chunked_ndjson_stream.lua
-
-

@@ -1,0 +1,5 @@
+from: markdown
+to: markdown
+wrap: none
+filters:
+  - import/normalize_whitespace.lua
